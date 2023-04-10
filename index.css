@@ -1,0 +1,116 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  margin: 0px;
+}
+
+.bgMain {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  background-size: cover;
+  height: 100vh;
+}
+.miniContainer {
+  background-color: #cffafe;
+}
+
+.mainHeading {
+  color: #0f172a;
+}
+.image1 {
+  width: 60px;
+}
+.image2 {
+  width: 30px;
+}
+.name {
+  color: #0f172a;
+}
+.Institute {
+  color: #1e293b;
+}
+
+@media (max-width: 767px) {
+  .bgMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .miniContainer {
+    background-color: #cffafe;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mainHeading {
+    font-size: 30px;
+    color: #0f172a;
+  }
+  .image {
+    width: 100px;
+  }
+  .name {
+    font-size: 15px;
+    color: #0f172a;
+    font-weight: 500;
+    margin: 5px;
+  }
+  .Institute {
+    font-size: 10px;
+    color: #1e293b;
+    text-align: center;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bgMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .miniContainer {
+    background-color: #cffafe;
+    margin: 10px;
+    padding: 15px;
+    width: 450px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mainHeading {
+    font-size: 45px;
+    color: #0f172a;
+  }
+  .image1 {
+    width: 120px;
+  }
+  .image2 {
+    width: 60px;
+  }
+  .name {
+    font-size: 25px;
+    color: #0f172a;
+    font-weight: 500;
+    margin: 5px;
+  }
+  .Institute {
+    font-size: 20px;
+    color: #1e293b;
+    text-align: center;
+    margin: 5px;
+  }
+}
